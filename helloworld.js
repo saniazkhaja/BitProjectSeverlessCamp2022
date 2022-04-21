@@ -1,4 +1,6 @@
 // code your `hello` function here!
-module.exports function hello() {
+function hello() {
     return "Hello World";
-}
+} 
+
+exports.hello = hello;
