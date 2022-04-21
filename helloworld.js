@@ -1,5 +1,5 @@
 // code your `hello` function here!
 
-export function helloworld.js() {
+export function hello() {
     return "Hello World";
 }
