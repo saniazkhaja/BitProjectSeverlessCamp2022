@@ -1,6 +1,8 @@
 // start coding your function here!
+// late function
 function running_late(date) {
-    if (date.getHours() < 22) {
+    let time = date.substr(date.length() - 8, 2);
+    if (time < 22) {
         return "It is still early!";
     } else {
         return "It is late!";
