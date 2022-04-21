@@ -1,5 +1,4 @@
 // start coding your function here!
-
 function running_late(date) {
     if (date.getHours() < 22) {
         return "It is still early!";
@@ -7,4 +6,4 @@ function running_late(date) {
         return "It is late!";
     }
 }
-module.exports = running_late;
+exports.running_late = running_late;
