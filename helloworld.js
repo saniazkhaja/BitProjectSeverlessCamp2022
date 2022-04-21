@@ -1,5 +1,5 @@
 // code your `hello` function here!
 
-function hello() {
+export function hello() {
     return "Hello World";
 }
