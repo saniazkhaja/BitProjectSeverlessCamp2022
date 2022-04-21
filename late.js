@@ -7,5 +7,4 @@ function running_late(date) {
         return "It is late!";
     }
 }
-
 module.exports = running_late;
